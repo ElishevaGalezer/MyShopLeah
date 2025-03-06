@@ -17,6 +17,7 @@ namespace Repositories
         {
             _myShopContext = myShopContext;
         }
+        //hi leah hyafa
         public async Task<List<Category>> Get()
         {
             return await _myShopContext.Categories.ToListAsync();
